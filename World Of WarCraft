@@ -31,3 +31,7 @@ if (mission){
     alert("Arg! We Have Arrived. It's Been A Mighty Good Time Traveling With You!");
 
 }
+if (mission){
+    alert("Suddenly, An Orc appears out of nowhere, an charges at you.");
+
+}
