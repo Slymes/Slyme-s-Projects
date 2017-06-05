@@ -24,6 +24,6 @@ else{
  
 }
 if (mission){
-alert("*Captain Blaze Sails To The Land Of Eldin With "+ user +"!");
+alert("*Captain Blaze Sails To The Land Of Eldin With "+ user +"!*");
  
 }
