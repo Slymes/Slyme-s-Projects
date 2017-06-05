@@ -23,4 +23,7 @@ else{
   alert("Get off my boat you rat!");
  
 }
-// Only Works On Google - Slymes
+{
+alert("*Captain Blaze Sails To The Land Of Eldin With"+ user +"!");
+ 
+}
