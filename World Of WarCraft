@@ -1,0 +1,25 @@
+// ==UserScript==
+// @name          World Of WarCraft (Beta)
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Get Ready For WarCraft!
+// @author       Micah Wu
+// @match        https://www.google.com/
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here...
+})(); alert("Welcome To World Of WarCraft!");
+var user = prompt("What is your name?", "(UserName)");
+var mission = confirm("Are you ready to begin "+ user +"?");
+
+if(mission){
+  alert("Arg! Welcome aboard maite!");
+}
+else{
+  alert("Get off my boat you rat!");
+ 
+}
