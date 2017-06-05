@@ -17,13 +17,17 @@ var user = prompt("What is your name?", "(UserName)");
 var mission = confirm("Are you ready to begin "+ user +"?");
 
 if(mission){
-  alert("Arg! Welcome aboard maite!");
+    alert("Arg! Welcome aboard maite!");
 }
 else{
-  alert("Get off my boat you rat!");
- 
+    alert("Get off my boat you rat!");
+
 }
 if (mission){
-alert("*Captain Blaze Sails To The Land Of Eldin With "+ user +"!*");
- 
+    alert("*Captain Blaze Sails To The Land Of Eldin With "+ user +"!*");
+
+}
+if (mission){
+    alert("Arg! We Have Arrived. It's Been A Mighty Good Time Traveling With You!");
+
 }
