@@ -23,7 +23,7 @@ else{
   alert("Get off my boat you rat!");
  
 }
-{
+if (mission){
 alert("*Captain Blaze Sails To The Land Of Eldin With"+ user +"!");
  
 }
