@@ -14,7 +14,7 @@
 })(); alert("Welcome To World Of WarCraft!");
 alert("Play By The Rules Or It Won't Be Fun.");
 var user = prompt("What is your name?", "(UserName)");
-var mission = confirm("Are you ready to begin "+ user +"?");
+var mission = confirm("Are You Ready To Begin "+ user +"?");
 
 if(mission){
     alert("Arg! Welcome Aboard Maite!");
