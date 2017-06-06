@@ -11,27 +11,46 @@
 (function() {
     'use strict';
 
-    // Your code here...
 })(); alert("Welcome To World Of WarCraft!");
+alert("Play By The Rules Or It Won't Be Fun.");
 var user = prompt("What is your name?", "(UserName)");
 var mission = confirm("Are you ready to begin "+ user +"?");
 
 if(mission){
-    alert("Arg! Welcome aboard maite!");
-}
-else{
-    alert("Get off my boat you rat!");
+    alert("Arg! Welcome Aboard Maite!");
 
 }
 if (mission){
-    alert("*Captain Blaze Sails To The Land Of Eldin With "+ user +"!*");
+    alert("*Captain Blaze Sails To The Word Of WarCraft With "+ user +"!*");
 
 }
 if (mission){
     alert("Arg! We Have Arrived. It's Been A Mighty Good Time Traveling With You!");
 
 }
-if (mission){
-    alert("Suddenly, An Orc appears out of nowhere, an charges at you.");
 
+if (mission)
+    (function() {
+        'use strict';
+
+    })(); if (mission){ alert("Suddenly, An Orc appears out of nowhere, and charges at you.");
+                       var weapon = prompt("Which Weapon? Sword Or Bow?", "Sword");
+                       var mission = confirm("Will You Attack Orc? (Cancel = No. Ok = Yes)");
+                      }
+
+if (mission){
+    alert("You Successfully Killed The Orc!");
+
+}
+
+else{
+    alert("The Orc Caught You! You Died!");
+}
+
+if (mission){
+    alert("You Walk Along the Dirt Road.");
+
+}
+if (mission){
+    alert("To Be Continued...");
 }
